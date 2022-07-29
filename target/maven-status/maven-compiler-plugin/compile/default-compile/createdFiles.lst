@@ -1,5 +1,0 @@
-Worker.class
-utils/Constants.class
-jobs/test/TestJob.class
-jobs/test/TestSink.class
-jobs/test/TestProcessFunction.class
