@@ -96,6 +96,30 @@
         <artifactId>jackson-datatype-joda</artifactId>
         <version>2.9.9</version>
     </dependency>
+
+    <!-- Flink testing modules -->
+    <dependency>
+        <groupId>org.apache.flink</groupId>
+        <artifactId>flink-test-utils</artifactId>
+        <version>${flink.version}</version>
+        <scope>test</scope>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.flink</groupId>
+        <artifactId>flink-runtime</artifactId>
+        <version>${flink.version}</version>
+        <scope>test</scope>
+        <classifier>tests</classifier>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.flink</groupId>
+        <artifactId>flink-streaming-java</artifactId>
+        <version>${flink.version}</version>
+        <scope>test</scope>
+        <classifier>tests</classifier>
+    </dependency>
+
+
 </dependencies>
 
 </project>

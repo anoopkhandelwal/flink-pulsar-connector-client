@@ -13,6 +13,7 @@ public class TestProcessFunction extends ProcessFunction<String, String> {
     public void processElement(String s, Context context, Collector<String> collector) throws Exception {
         log.info("Message = {}", s);
         Thread.sleep(1000);
+        s = s.concat("World");
         collector.collect(s);
     }
 }
